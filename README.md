@@ -15,6 +15,8 @@
 ## 📑 Description
 E-Commerce System is a backend system for internet retail companies that uses Express.js, Sequelize and MySQL.  
 
+[Walkthrough Video](https://youtu.be/FRAp8rHW3J8)
+
 ## 💾 Installation
 To install, clone down from GitHub Repository. Once cloned down to local machine, open root folder in terminal. Run `npm i` to install required modules and packages. Once complete, run `mysql -u root -p` and enter your MySQL password, then `SOURCE db/schema.sql;` once databases are loaded `quit;` MySQL. Back in the terminal run `node server.js` to initialize the server. 
 
@@ -25,6 +27,8 @@ To install, clone down from GitHub Repository. Once cloned down to local machine
 
 ## 🧪 Test
 Insomnia Core used to test all API routes. Categories, products, and tags all created and each tested with POST, PUT, and DELETE routes in Insomnia Core. All function correctly to successfully create, update, and delete data the E-Commerce database. 
+
+![Insomnia testing](./images/insomnia-get.gif)
 
 
 ## ❓ Questions

@@ -41,7 +41,7 @@ router.get("/:id", async (req, res) => {
 });
 
 // create new product
-router.post('/', (req, res) => {
+router.post("/", (req, res) => {
   /* req.body should look like this...
     {
       product_name: "Basketball",
@@ -73,7 +73,7 @@ router.post('/', (req, res) => {
 });
 
 // update product
-router.put('/:id', (req, res) => {
+router.put("/:id", (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
@@ -131,7 +131,7 @@ router.delete("/:id", async (req, res) => {
       return;
     }
 
-    res.status(200).json({message: "The product has been deleted"});
+    res.status(200).json({ message: "The product has been deleted" });
   } catch (err) {
     res.status(500).json(err);
   }
